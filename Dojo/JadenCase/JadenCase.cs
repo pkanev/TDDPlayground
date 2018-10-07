@@ -13,12 +13,7 @@ namespace JadenCase
         {
             string result = string.Empty;
             for (int index = 0, phraseLength = phrase.Length; index < phraseLength; index ++)
-            {
-                if (ShouldBeUpperCase(phrase, index))
-                    result += phrase[index].ToString().ToUpper();
-                else
-                    result += phrase[index].ToString().ToLower();
-            }
+                result += ShouldBeUpperCase(phrase, index) ? phrase[index].ToString().ToUpper() : phrase[index].ToString().ToLower();
 
             return result;
         }
