@@ -1,9 +1,0 @@
-D:\repos\Dojo\NumberChains\bin\Debug\netcoreapp2.1\NumberChains.deps.json
-D:\repos\Dojo\NumberChains\bin\Debug\netcoreapp2.1\NumberChains.dll
-D:\repos\Dojo\NumberChains\bin\Debug\netcoreapp2.1\NumberChains.pdb
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.csprojAssemblyReference.cache
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.csproj.CoreCompileInputs.cache
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.AssemblyInfoInputs.cache
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.AssemblyInfo.cs
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.dll
-D:\repos\Dojo\NumberChains\obj\Debug\netcoreapp2.1\NumberChains.pdb

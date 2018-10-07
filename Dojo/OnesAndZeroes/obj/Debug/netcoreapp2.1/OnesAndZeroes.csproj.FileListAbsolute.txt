@@ -1,9 +1,0 @@
-D:\repos\Dojo\OnesAndZeroes\bin\Debug\netcoreapp2.1\OnesAndZeroes.deps.json
-D:\repos\Dojo\OnesAndZeroes\bin\Debug\netcoreapp2.1\OnesAndZeroes.dll
-D:\repos\Dojo\OnesAndZeroes\bin\Debug\netcoreapp2.1\OnesAndZeroes.pdb
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.csproj.CoreCompileInputs.cache
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.AssemblyInfoInputs.cache
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.AssemblyInfo.cs
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.dll
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.pdb
-D:\repos\Dojo\OnesAndZeroes\obj\Debug\netcoreapp2.1\OnesAndZeroes.csprojAssemblyReference.cache

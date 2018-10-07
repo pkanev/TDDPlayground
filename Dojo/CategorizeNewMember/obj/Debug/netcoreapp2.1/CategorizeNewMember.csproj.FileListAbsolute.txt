@@ -1,9 +1,0 @@
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.csprojAssemblyReference.cache
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.csproj.CoreCompileInputs.cache
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.AssemblyInfoInputs.cache
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.AssemblyInfo.cs
-D:\repos\Dojo\CategorizeNewMember\bin\Debug\netcoreapp2.1\CategorizeNewMember.deps.json
-D:\repos\Dojo\CategorizeNewMember\bin\Debug\netcoreapp2.1\CategorizeNewMember.dll
-D:\repos\Dojo\CategorizeNewMember\bin\Debug\netcoreapp2.1\CategorizeNewMember.pdb
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.dll
-D:\repos\Dojo\CategorizeNewMember\obj\Debug\netcoreapp2.1\CategorizeNewMember.pdb
