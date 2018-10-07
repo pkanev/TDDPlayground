@@ -1,0 +1,9 @@
+D:\repos\Dojo\UniqueInOrder\bin\Debug\netcoreapp2.1\UniqueInOrder.deps.json
+D:\repos\Dojo\UniqueInOrder\bin\Debug\netcoreapp2.1\UniqueInOrder.dll
+D:\repos\Dojo\UniqueInOrder\bin\Debug\netcoreapp2.1\UniqueInOrder.pdb
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.csproj.CoreCompileInputs.cache
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.AssemblyInfoInputs.cache
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.AssemblyInfo.cs
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.dll
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.pdb
+D:\repos\Dojo\UniqueInOrder\obj\Debug\netcoreapp2.1\UniqueInOrder.csprojAssemblyReference.cache

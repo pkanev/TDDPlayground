@@ -1,0 +1,9 @@
+D:\repos\Dojo\FizzBuzz\bin\Debug\netcoreapp2.1\FizzBuzz.deps.json
+D:\repos\Dojo\FizzBuzz\bin\Debug\netcoreapp2.1\FizzBuzz.dll
+D:\repos\Dojo\FizzBuzz\bin\Debug\netcoreapp2.1\FizzBuzz.pdb
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.csprojAssemblyReference.cache
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.csproj.CoreCompileInputs.cache
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.AssemblyInfoInputs.cache
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.AssemblyInfo.cs
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.dll
+D:\repos\Dojo\FizzBuzz\obj\Debug\netcoreapp2.1\FizzBuzz.pdb
