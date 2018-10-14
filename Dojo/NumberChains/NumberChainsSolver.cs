@@ -7,20 +7,18 @@ namespace NumberChains
     {
         public int Solver(int input)
         {
-            int previous = int.MinValue;
+            HashSet<int> chain = new HashSet<int>();
             int number = input;
-            int chainLength = 0;
             int[] minMax;
 
-            while (number != previous)
+            while (!chain.Contains(number))
             {
-                chainLength++;
                 minMax = GetMinAndMaxNumbers(number);
-                previous = number;
+                chain.Add(number);
                 number = minMax[1] - minMax[0];
             }
 
-            return chainLength;
+            return chain.Count;
         }
 
         private int[] GetMinAndMaxNumbers(int input)

@@ -7,11 +7,13 @@ namespace Tests
     {
         [Theory]
         [InlineData(0, 1)]
+        [InlineData(1, 2)]
         [InlineData(10, 3)]
+        [InlineData(11, 2)]
         [InlineData(123456789, 2)]
         [InlineData(1234, 4)]
         [InlineData(444, 2)]
-        public void NumberChainsSOlverShouldReturnCorrectChainLength(int input, int expected)
+        public void NumberChainsSolverShouldReturnCorrectChainLength(int input, int expected)
         {
             // Arrange
             NumberChainsSolver solver = new NumberChainsSolver();
