@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CategorizeNewMember\CategorizeNewMember.csproj" />
+    <ProjectReference Include="..\DoubleCola\DoubleCola.csproj" />
     <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj" />
     <ProjectReference Include="..\JadenCase\JadenCase.csproj" />
     <ProjectReference Include="..\NumberChains\NumberChains.csproj" />
