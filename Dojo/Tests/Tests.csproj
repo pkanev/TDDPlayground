@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CamelCase\CamelCase.csproj" />
     <ProjectReference Include="..\CategorizeNewMember\CategorizeNewMember.csproj" />
     <ProjectReference Include="..\DoubleCola\DoubleCola.csproj" />
     <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj" />

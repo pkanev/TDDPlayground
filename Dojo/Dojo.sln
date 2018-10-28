@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JadenCase", "JadenCase\Jade
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoToOne", "TwoToOne\TwoToOne.csproj", "{D2EDE576-8F36-4BEC-8691-CDC4BDCFC780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleCola", "DoubleCola\DoubleCola.csproj", "{C8FAABD8-4B28-4681-9791-BF27E07FA097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleCola", "DoubleCola\DoubleCola.csproj", "{C8FAABD8-4B28-4681-9791-BF27E07FA097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "CamelCase\CamelCase.csproj", "{C64D3BDB-524E-4D32-B628-5FC9A33870BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C8FAABD8-4B28-4681-9791-BF27E07FA097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FAABD8-4B28-4681-9791-BF27E07FA097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FAABD8-4B28-4681-9791-BF27E07FA097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64D3BDB-524E-4D32-B628-5FC9A33870BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64D3BDB-524E-4D32-B628-5FC9A33870BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64D3BDB-524E-4D32-B628-5FC9A33870BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64D3BDB-524E-4D32-B628-5FC9A33870BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
