@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RGBToHex
+﻿namespace RGBToHex
 {
     public static class Kata
     {
@@ -8,12 +6,7 @@ namespace RGBToHex
         private const int MAX = 255;
 
         public static string Rgb(int red, int green, int blue)
-        {
-            red = NormalizeColorValue(red);
-            green = NormalizeColorValue(green);
-            blue = NormalizeColorValue(blue);
-            return red.ToString("X2") + green.ToString("X2") + blue.ToString("X2");
-        }
+            => $"{NormalizeColorValue(red).ToString("X2")}{NormalizeColorValue(green).ToString("X2")}{NormalizeColorValue(blue).ToString("X2")}";
 
         private static int NormalizeColorValue(int color)
         {
