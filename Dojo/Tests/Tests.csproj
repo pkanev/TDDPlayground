@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AlternatingSplit\AlternatingSplit.csproj" />
     <ProjectReference Include="..\CamelCase\CamelCase.csproj" />
     <ProjectReference Include="..\CategorizeNewMember\CategorizeNewMember.csproj" />
     <ProjectReference Include="..\DoubleCola\DoubleCola.csproj" />
