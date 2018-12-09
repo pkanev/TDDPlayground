@@ -1,8 +1,8 @@
-﻿using CategorizeNewMember;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class CategorizeNewMemberTests
     {
         [Fact]
@@ -18,7 +18,7 @@ namespace Tests
 
         private static void AssertResultIsValid(int[][] input, string[] expected)
         {
-            var result = Kata.OpenOrSenior(input);
+            var result = CategorizeNewMember.OpenOrSenior(input);
             Assert.Equal(expected, result);
         }
     }

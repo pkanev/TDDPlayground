@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace JadenCase
+﻿namespace Katas
 {
+    using System.Collections.Generic;
+
     public static class JadenCase
     {
         private static HashSet<char> wordSeparators = new HashSet<char>
@@ -12,7 +12,7 @@ namespace JadenCase
         public static string ToJadenCase(this string phrase)
         {
             string result = string.Empty;
-            for (int index = 0, phraseLength = phrase.Length; index < phraseLength; index ++)
+            for (int index = 0, phraseLength = phrase.Length; index < phraseLength; index++)
                 result += ShouldBeUpperCase(phrase, index) ? phrase[index].ToString().ToUpper() : phrase[index].ToString().ToLower();
 
             return result;

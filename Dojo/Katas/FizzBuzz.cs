@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
-
-namespace FizzBuzz
+﻿namespace Katas
 {
-    public class FizzBuzzProcessor
+    using System.Collections.Generic;
+
+    public class FizzBuzz
     {
+        private const string FIZZ = "Fizz";
+        private const string BUZZ = "Buzz";
+
         public string PrintResult(int maxValue)
         {
             List<string> results = new List<string>();
@@ -17,10 +20,10 @@ namespace FizzBuzz
         {
             string value = string.Empty;
             if (i % 3 == 0)
-                value += "Fizz";
+                value += FIZZ;
 
             if (i % 5 == 0)
-                value += "Buzz";
+                value += BUZZ;
 
             if (string.IsNullOrEmpty(value))
                 value = i.ToString();

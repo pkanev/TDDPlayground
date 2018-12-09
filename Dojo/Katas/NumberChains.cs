@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace NumberChains
+﻿namespace Katas
 {
-    public class NumberChainsSolver
+    using System;
+    using System.Collections.Generic;
+
+    public class NumberChains
     {
         public int Solver(int input)
         {
@@ -28,7 +28,7 @@ namespace NumberChains
             int max = 0;
             for (int index = 0, minPower = digits.Count - 1, maxPower = 0;
                     index < digits.Count;
-                    index++, minPower --, maxPower++)
+                    index++, minPower--, maxPower++)
             {
                 max += digits[index] * (int)Math.Pow(10, maxPower);
                 min += digits[index] * (int)Math.Pow(10, minPower);

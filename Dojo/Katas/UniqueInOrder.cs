@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace UniqueInOrder
+﻿namespace Katas
 {
-    public class Kata
+    using System.Collections.Generic;
+
+    public class UniqueInOrder
     {
-        public static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
+        public static IEnumerable<T> ToUniqueInOrder<T>(IEnumerable<T> iterable)
         {
             var result = new List<T>();
             var previous = default(T);
             foreach (var item in iterable)
-                if(!item.Equals(previous))
+                if (!item.Equals(previous))
                 {
                     result.Add(item);
                     previous = item;

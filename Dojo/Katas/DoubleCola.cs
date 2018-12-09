@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace DoubleCola
+﻿namespace Katas
 {
-    public class Line
+    using System;
+
+    public static class DoubleCola
     {
         public static string WhoIsNext(string[] queue, long finalTurn)
         {
@@ -19,7 +19,7 @@ namespace DoubleCola
                 for (index = 0; index < queueLength; index++)
                 {
                     current += increment;
-                    if(current >= finalTurn)
+                    if (current >= finalTurn)
                         break;
                 }
 

@@ -1,8 +1,8 @@
-﻿using CamelCase;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+    
     public class CamelCaseTests
     {
         [Theory]
@@ -15,6 +15,6 @@ namespace Tests
         [InlineData("a          a", "AA")]
         [InlineData("test if this function WorS", "TestIfThisFunctionWors")]
         public void CamelCaseShouldReturnValidString(string input, string expected)
-            => Assert.Equal(expected, input.CamelCase());
+            => Assert.Equal(expected, input.ToCamelCase());
     }
 }

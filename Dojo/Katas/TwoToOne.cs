@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace TwoToOne
+﻿namespace Katas
 {
-    public class Kata
+    using System.Collections.Generic;
+
+    public class TwoToOne
     {
         public static string Longest(params string[] inputStrings)
         {
@@ -10,7 +10,7 @@ namespace TwoToOne
             foreach (string inputString in inputStrings)
                 foreach (char letter in inputString)
                     letters.Add(letter);
-            
+
             return string.Concat(letters);
         }
     }

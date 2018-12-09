@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace CamelCase
+﻿namespace Katas
 {
-    public static class Kata
+    using System;
+
+    public static class CamelCase
     {
-        public static string CamelCase(this string input)
+        public static string ToCamelCase(this string input)
         {
             string result = string.Empty;
             if (string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input))
@@ -15,7 +15,7 @@ namespace CamelCase
             string[] words = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             for (int index = 0; index < words.Length; index++)
                 result += CapitalizeFirstLetter(words[index]);
-            
+
             return result;
         }
 

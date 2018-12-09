@@ -1,8 +1,8 @@
-﻿using DoubleCola;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class DoubleColaTests
     {
         [Theory]
@@ -15,7 +15,7 @@ namespace Tests
         [InlineData("Leonard", 7230702951, "Sheldon", "Leonard", "Penny", "Rajesh", "Howard")]
         public void NextInLineShouldReturnCorrectPerson(string expected, long turn, params string[] queue)
         {
-            AssertThatAreEqual(Line.WhoIsNext(queue, turn), expected);
+            AssertThatAreEqual(DoubleCola.WhoIsNext(queue, turn), expected);
         }
 
         private void AssertThatAreEqual(string actual, string expected)

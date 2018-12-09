@@ -13,17 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AlternatingSplit\AlternatingSplit.csproj" />
-    <ProjectReference Include="..\CamelCase\CamelCase.csproj" />
-    <ProjectReference Include="..\CategorizeNewMember\CategorizeNewMember.csproj" />
-    <ProjectReference Include="..\DoubleCola\DoubleCola.csproj" />
-    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj" />
-    <ProjectReference Include="..\JadenCase\JadenCase.csproj" />
-    <ProjectReference Include="..\NumberChains\NumberChains.csproj" />
-    <ProjectReference Include="..\OnesAndZeroes\OnesAndZeroes.csproj" />
-    <ProjectReference Include="..\RGBToHex\RGBToHex.csproj" />
-    <ProjectReference Include="..\TwoToOne\TwoToOne.csproj" />
-    <ProjectReference Include="..\UniqueInOrder\UniqueInOrder.csproj" />
+    <ProjectReference Include="..\Katas\Katas.csproj" />
   </ItemGroup>
 
 </Project>

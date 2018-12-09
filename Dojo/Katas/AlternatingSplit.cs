@@ -1,6 +1,6 @@
-﻿namespace AlternatingSplit
+﻿namespace Katas
 {
-    public static class Kata
+    public static class AlternatingSplit
     {
         public static string Encrypt(string text, int iterations)
         {
@@ -8,7 +8,7 @@
                 return text;
 
             string result = text;
-            for (int iteration = 0; iteration < iterations; iteration ++)
+            for (int iteration = 0; iteration < iterations; iteration++)
                 result = EncryptOnce(result);
 
             return result;
@@ -21,11 +21,11 @@
 
             string result = encryptedText;
             int splitIndex = result.Length / 2;
-            for (int iteration = 0; iteration < iterations; iteration ++)
-               result = DecryptOnce(result, splitIndex);
+            for (int iteration = 0; iteration < iterations; iteration++)
+                result = DecryptOnce(result, splitIndex);
 
             return result;
-        }        
+        }
 
         private static string EncryptOnce(string text)
         {

@@ -1,8 +1,8 @@
-﻿using RGBToHex;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class RGBToHexTests
     {
         [Theory]
@@ -11,6 +11,6 @@ namespace Tests
         [InlineData(255, 255, -20, "FFFF00")]
         [InlineData(212, 53, 12, "D4350C")]        
         public void RGBShouldReturnCorrectHexadecimalValue(int red, int green, int blue, string expected)
-            => Assert.Equal(expected, Kata.Rgb(red, green, blue));
+            => Assert.Equal(expected, RgbToHex.Rgb(red, green, blue));
     }
 }

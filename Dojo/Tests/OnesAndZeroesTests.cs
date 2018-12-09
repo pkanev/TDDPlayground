@@ -1,8 +1,8 @@
-﻿using OnesAndZeroes;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class OnesAndZeroesTests
     {
         [Fact]
@@ -23,7 +23,7 @@ namespace Tests
 
         private void BinaryArrayToNumberShouldReturnCorrectNumber(int[] binaryArray, int expected)
         {
-            int result = Kata.BinaryArrayToNumber(binaryArray);
+            int result = OnesAndZeroes.BinaryArrayToNumber(binaryArray);
             Assert.Equal(expected, result);
         }
     }

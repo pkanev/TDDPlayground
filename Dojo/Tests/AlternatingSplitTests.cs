@@ -1,8 +1,8 @@
-﻿using AlternatingSplit;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class AlternatingSplitTests
     {
         [Theory]
@@ -17,7 +17,7 @@ namespace Tests
         [InlineData("This is a test!", -1, "This is a test!")]
         [InlineData("This kata is very interesting!", 1, "hskt svr neetn!Ti aai eyitrsig")]
         public void EncryptShouldEncryptCorrectly(string input, int iterations, string expected)
-            => Assert.Equal(expected, Kata.Encrypt(input, iterations));
+            => Assert.Equal(expected, AlternatingSplit.Encrypt(input, iterations));
 
         [Theory]
         [InlineData(null, 0, null)]
@@ -32,7 +32,7 @@ namespace Tests
         [InlineData("This is a test!", -1, "This is a test!")]
         [InlineData("hskt svr neetn!Ti aai eyitrsig", 1, "This kata is very interesting!")]
         public void DecryptShouldReturnOriginalValue(string encrypted, int iterations, string expected)
-            => Assert.Equal(expected, Kata.Decrypt(encrypted, iterations));
+            => Assert.Equal(expected, AlternatingSplit.Decrypt(encrypted, iterations));
 
     }
 }

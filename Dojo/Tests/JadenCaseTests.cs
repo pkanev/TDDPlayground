@@ -1,8 +1,9 @@
-﻿using JadenCase;
-using Xunit;
-
+﻿
 namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class JadenCaseTests
     {
         [Fact]

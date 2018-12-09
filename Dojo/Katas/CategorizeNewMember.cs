@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace CategorizeNewMember
+﻿namespace Katas
 {
-    public class Kata
+    using System.Collections.Generic;
+
+    public class CategorizeNewMember
     {
         const int SENIOR_AGE = 55;
         const int HANDICAP_THRESHHOLD = 7;

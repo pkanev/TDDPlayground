@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
-using UniqueInOrder;
-using Xunit;
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using System.Collections.Generic;
+    using Xunit;
+
     public class UniqueInOrderTests
     {
         [Fact]
@@ -15,7 +16,7 @@ namespace Tests
 
         private void ValidateResults<T>(IEnumerable<T> input, IEnumerable<T> expected)
         {
-            var actual = Kata.UniqueInOrder(input);
+            var actual = UniqueInOrder.ToUniqueInOrder(input);
             Assert.Equal(expected, actual);
         }
     }

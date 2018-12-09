@@ -1,8 +1,8 @@
-﻿using NumberChains;
-using Xunit;
-
-namespace Tests
+﻿namespace Tests
 {
+    using Katas;
+    using Xunit;
+
     public class NumberChainsTests
     {
         [Theory]
@@ -16,7 +16,7 @@ namespace Tests
         public void NumberChainsSolverShouldReturnCorrectChainLength(int input, int expected)
         {
             // Arrange
-            NumberChainsSolver solver = new NumberChainsSolver();
+            NumberChains solver = new NumberChains();
 
             // Act
             int result = solver.Solver(input);
