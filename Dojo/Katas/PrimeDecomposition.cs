@@ -35,6 +35,7 @@
         {
             int number = factor + 1;
             bool isPrime;
+
             do
             {
                 isPrime = true;
